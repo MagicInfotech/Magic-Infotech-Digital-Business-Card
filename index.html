@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Milan Surani - Business Card</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Gotham', sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 400px;
+      background: white;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      border-radius: 20px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+
+    .top {
+      background: #bb2025;
+      color: white;
+      padding: 20px 30px;
+      text-align: center;
+    }
+
+    .branding img {
+      width: 300px;
+      margin-bottom: 10px;
+    }
+
+    .branding h2 {
+      margin: 5px 0 4px;
+    }
+
+    .branding p {
+      margin: 0;
+    }
+
+    .bottom {
+      padding: 30px 20px;
+    }
+
+    .bottom h1 {
+      font-weight: 770;
+      margin: 0 0 10px;
+      color: #bb2025;
+    }
+
+    .bottom p {
+      margin: 20px 0;
+      color: #2b2b2b;
+    }
+
+    .subheading {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .contact a {
+      color: #bb2025;
+      text-decoration: none;
+    }
+
+    .image-card {
+      padding: 0; /* remove invalid negative padding */
+      overflow: hidden; /* ensure no overflow */
+      border-radius: 20px; /* same as card */
+    }
+
+    .image-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* cover to maintain aspect ratio and fill */
+      border-radius: 20px; /* match card's rounded corners */
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- First Card (Front) -->
+  <div class="card">
+    <div class="top">
+      <div class="branding">
+        <img src="Magic Infotech Logo.png" alt="Logo" />
+        <h2>Magic Infotech</h2>
+        <p>Surat, India</p>
+      </div>
+    </div>
+    <div class="bottom">
+      <h1>MILAN SURANI</h1>
+      <p class="subheading">Graphics Designer & Digital Marketer</p>
+      <div class="contact">
+        <p>Phone: <a href="tel:+919913642533">+91 99136 42533</a></p>
+        <p>Email: <a href="mailto:magicinfotech2020@gmail.com">magicinfotech2020@gmail.com</a></p>
+        <p>WhatsApp: <a href="https://wa.me/c/919913642533">Click & See My Portfolio</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/magic_infotech/" target="_blank">@magic_infotech</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Card (Back) -->
+  <div class="card image-card">
+    <img src="Marketing.jpg" alt="Digital Marketing Poster" />
+  </div>
+
+</body>
+</html>
