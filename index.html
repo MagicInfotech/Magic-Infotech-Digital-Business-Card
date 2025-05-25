@@ -87,14 +87,19 @@
     }
 
     .services {
-      padding: 20px;
+      padding: 25px;
       text-align: center;
     }
 
-    .services h2 {
-      margin: 0 0 15px;
-      color: #bb2025;
+    .service-title {
+      display: inline-block;
+      background-color: #bb2025;
+      color: white;
+      font-weight: bold;
       font-size: 20px;
+      padding: 5px 40px;
+      border-radius: 6px;
+      margin-bottom: 5px;
     }
 
     .service-list {
@@ -105,9 +110,9 @@
     }
 
     .service-list li {
-      margin: 8px 0;
-      font-size: 14px;
-      padding-left: 20px;
+      margin: 10px 0;
+      font-size: 13px;
+      padding-left: 18px;
       position: relative;
       color: #333;
     }
@@ -126,6 +131,7 @@
       margin-top: 20px;
       border-radius: 15px;
       object-fit: cover;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
   </style>
 </head>
@@ -155,17 +161,17 @@
   <!-- Second Card (Back with Services + Image) -->
   <div class="card">
     <div class="services">
-      <h2>Our Services</h2>
+      <div class="service-title">Our Services</div>
       <ul class="service-list">
         <li>Digital Marketing</li>
         <li>Social Media Designs</li>
         <li>Social Media Handling</li>
         <li>Brochure & Catalogue Design</li>
-        <li>Website Design</li>
+        <li>Website Design & Development</li>
         <li>Content Marketing</li>
         <li>Reels Shoot</li>
         <li>Logo Design</li>
-        <li>Package Design</li>
+        <li>Package & Sticker Design</li>
         <li>SEO Hosting</li>
       </ul>
       <img src="Marketing.jpg" class="marketing-image" alt="Marketing Poster" />
