@@ -97,20 +97,11 @@
       font-size: 20px;
     }
 
-    .services-flex {
-      display: flex;
-      gap: 15px;
-      align-items: flex-start;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-
     .service-list {
       list-style: none;
       padding: 0;
       margin: 0;
       text-align: left;
-      flex: 1 1 55%;
     }
 
     .service-list li {
@@ -129,29 +120,12 @@
       font-size: 12px;
     }
 
-    .marketing-side-image {
-      flex: 1 1 40%;
-      max-width: 100%;
+    .marketing-image {
+      width: 100%;
       height: auto;
+      margin-top: 20px;
       border-radius: 15px;
       object-fit: cover;
-    }
-
-    @media (max-width: 480px) {
-      .services-flex {
-        flex-direction: column;
-        align-items: center;
-      }
-      .service-list {
-        text-align: center;
-        padding-left: 0;
-      }
-      .service-list li {
-        padding-left: 0;
-      }
-      .service-list li::before {
-        display: none;
-      }
     }
   </style>
 </head>
@@ -161,7 +135,7 @@
   <div class="card">
     <div class="top">
       <div class="branding">
-        <img src="C:\Users\Admin\OneDrive\Desktop\1x\Magic Infotech Logo.png" alt="Logo" />
+        <img src="Magic Infotech Logo.png" alt="Logo" />
         <h2>Magic Infotech</h2>
         <p>Surat, India</p>
       </div>
@@ -170,33 +144,31 @@
       <h1>Milan Surani</h1>
       <p class="subheading">Graphics Designer & Digital Marketer</p>
       <div class="contact">
-        <p><img src="C:\Users\Admin\OneDrive\Desktop\1x\Contact.png" class="contact-icon" alt="Phone Icon" /><a href="tel:+919913642533">+91 99136 42533</a></p>
-        <p><img src="C:\Users\Admin\OneDrive\Desktop\1x\Mail.png" class="contact-icon" alt="Mail Icon" /><a href="mailto:magicinfotech2020@gmail.com">magicinfotech2020@gmail.com</a></p>
-        <p><img src="C:\Users\Admin\OneDrive\Desktop\1x\Whats App.png" class="contact-icon" alt="WhatsApp Icon" /><a href="https://wa.me/c/919913642533">Click & See My Portfolio</a></p>
-        <p><img src="C:\Users\Admin\OneDrive\Desktop\1x\Instagram.png" class="contact-icon" alt="Instagram Icon" /><a href="https://www.instagram.com/magic_infotech/" target="_blank">@magic_infotech</a></p>
+        <p><img src="Contact.png" class="contact-icon" alt="Phone Icon" /><a href="tel:+919913642533">+91 99136 42533</a></p>
+        <p><img src="Mail.png" class="contact-icon" alt="Mail Icon" /><a href="mailto:magicinfotech2020@gmail.com">magicinfotech2020@gmail.com</a></p>
+        <p><img src="Whats App.png" class="contact-icon" alt="WhatsApp Icon" /><a href="https://wa.me/c/919913642533">Click & See My Portfolio</a></p>
+        <p><img src="Instagram.png" class="contact-icon" alt="Instagram Icon" /><a href="https://www.instagram.com/magic_infotech/" target="_blank">@magic_infotech</a></p>
       </div>
     </div>
   </div>
 
-  <!-- Second Card (Back with Services + Side Image) -->
+  <!-- Second Card (Back with Services + Image) -->
   <div class="card">
     <div class="services">
       <h2>Our Services</h2>
-      <div class="services-flex">
-        <ul class="service-list">
-          <li>Digital Marketing</li>
-          <li>Social Media Designs</li>
-          <li>Social Media Handling</li>
-          <li>Brochure & Catalogue Design</li>
-          <li>Website Design</li>
-          <li>Content Marketing</li>
-          <li>Reels Shoot</li>
-          <li>Logo Design</li>
-          <li>Package Design</li>
-          <li>SEO Hosting</li>
-        </ul>
-        <img src="C:\Users\Admin\OneDrive\Desktop\1x\Marketing.jpg" class="marketing-side-image" alt="Marketing Poster" />
-      </div>
+      <ul class="service-list">
+        <li>Digital Marketing</li>
+        <li>Social Media Designs</li>
+        <li>Social Media Handling</li>
+        <li>Brochure & Catalogue Design</li>
+        <li>Website Design</li>
+        <li>Content Marketing</li>
+        <li>Reels Shoot</li>
+        <li>Logo Design</li>
+        <li>Package Design</li>
+        <li>SEO Hosting</li>
+      </ul>
+      <img src="Marketing.jpg" class="marketing-image" alt="Marketing Poster" />
     </div>
   </div>
 
